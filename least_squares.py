@@ -47,7 +47,6 @@ for k in np.arange(1,kmax+1).reshape(-1):
 
 ## USIGN CROSS-VALIDATION
 
-rng(0)
 T = 12
 
 trials = 1000
