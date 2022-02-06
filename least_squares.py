@@ -3,7 +3,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-rng(0)
 N = 15
 x = np.transpose(np.linspace(0,5,N))
 y = (x - 2) ** 2 + np.random.randn(N,1)
